@@ -1,6 +1,6 @@
 -r docs/requirements-docs.txt
 
-pytest-cov
-pytest-pep8
-pytest-logging
-tox
+flake8~=4.0.0
+pylint~=2.14.0
+pytest-cov~=3.0.0
+tox~=3.25.0
