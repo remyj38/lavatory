@@ -1,6 +1,0 @@
--r docs/requirements-docs.txt
-
-pytest-cov
-pytest-pep8
-pytest-logging
-tox

@@ -10,6 +10,7 @@ def load_credentials():
         "artifactory_url": os.getenv('ARTIFACTORY_URL')
     }
 
+    # pylint: disable=C0206
     for key in credentials:
         if credentials[key] is None:
             raise MissingEnvironmentVariable(key.upper())
