@@ -1,6 +1,6 @@
 -r docs/requirements-docs.txt
 
-flake8~=4.0.0
+flake8~=4.0.1
 pylint~=2.14.0
 pytest-cov~=3.0.0
 tox~=3.25.0
