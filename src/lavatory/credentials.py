@@ -10,7 +10,7 @@ def load_credentials():
         "artifactory_url": os.getenv('ARTIFACTORY_URL')
     }
 
-    for key in credentials:
+    for key in credentials.items():
         if credentials[key] is None:
             raise MissingEnvironmentVariable(key.upper())
 
